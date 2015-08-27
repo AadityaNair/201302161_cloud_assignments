@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     printf("; x64 is backward compatible with x86\n; *without* any performance loss.\n");
     printf("; So here is the same code back at you.\n\n");
 
-    printf("64-bit code for %s\n", argv[1]);
+    printf("; 64-bit code for %s\n", argv[1]);
 
     int fp = fopen(argv[1], "r");
     if (fp == 0){
