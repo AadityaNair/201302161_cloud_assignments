@@ -1,0 +1,6 @@
+This contains the topology for the mininet assignment
+The given file creates the described topology and starts mininet CLI
+
+to execute:
+* run `sudo mn -c`
+* run `python topology.py`
